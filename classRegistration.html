@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/classRegistration.css">
+    <title>Student Class Booking Form</title>
+    <link rel="stylesheet" href="css/studentStyle.css">
+    <!--Boxicons CDN Link-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <section>
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <div class="logo_name"><img src="images/logo.jpg" alt="Your Logo" /></div>
+            </div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <ul class="nav_list">
+            <li>
+                
+                    <i class='bx bx-search'></i>
+                    <input type="text" placeholder="Search...">
+                
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-grid-alt'></i>
+                    <span class="links_name">Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-note'></i>
+                    <span class="links_name">Class Registration</span>
+                </a>
+            </li>
+            <li>
+                <a href="classMaterial.html">
+                    <i class='bx bx-book-open'></i>
+                    <span class="links_name">Class Materials</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-conversation'></i>
+                    <span class="links_name">Conversation</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-edit'></i>
+                    <span class="links_name">Feedback</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>  
+    <section class="hero">
+    <div class="container">
+        
+        <div class="advertise">
+            <img src="team-01.png" alt="Tutor's Image">
+            <table><tr><td><h2>Udara Amarathunga</h2></td></tr>
+            <tr><td><p>
+                <ul>
+                <li>BA Mass Media (Sp) Degree in University of Colombo</li> 
+                <li>Diploma in English Aquinas college in Colombo</li> 
+                <li>Diploma in Human Resources Management in CIPM Colombo</li> 
+                </ul>
+            </p></td>
+            </tr>
+            <tr><td><h2>Media</h2></td></tr>
+            <tr><td><h2>LKR 2500</h2></td>
+            <td><submit>Book Now</submit></td>
+            </tr>
+            </table>
+        </div>
+    </div>
+	
+	<br>
+
+	
+    <div class="container2">
+        <h1>Book Your Tutor</h1>
+        <form id="booking-form">
+			<div class="form-group">
+                
+                <input type="text" id="tname" name="tname" placeholder="Tutor Name" required>
+            </div>
+            <div class="form-group">
+                
+                <input type="text" id="name" name="name" placeholder="Student Name" required>
+            </div>
+            <div class="form-group">
+                
+                <input type="email" id="email" name="email" placeholder="Email Address"required>
+            </div>
+            <div class="form-group">
+                
+                <input type="text" id="subject" name="subject" placeholder="Payment"required>
+            </div>
+            <div class="form-group">
+                <input type="radio" id="date" name="monday" required>
+                Monday
+                <input type="radio" id="date" name="monday" required>
+                Tuesday
+                <input type="radio" id="date" name="monday" required>
+                Wednesday
+                <input type="radio" id="date" name="monday" required>
+                Thursday
+                <input type="radio" id="date" name="monday" required>
+                Friday
+                <input type="radio" id="date" name="monday" required>
+                Saturday
+                <input type="radio" id="date" name="monday" required>
+                Sunday
+                
+            </div>
+            <div class="form-group">
+                
+                <input type="time" id="time" name="time" placeholder="Time" required>
+            </div>
+            <div class="form-group">
+                
+                <textarea id="message" name="message" rows="4" placeholder="Add your comments here.."></textarea>
+            </div>
+            <button type="submit">Book Class</button>
+        </form>
+    </div>
+</section>
+<div>
+<footer class="foot">
+    <p>&copy; 2023 Tutor Finder</p>
+</footer>
+</div>
+</body>
+</html>
