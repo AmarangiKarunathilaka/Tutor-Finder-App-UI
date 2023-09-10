@@ -1,0 +1,195 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(48, 38%, 64%);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: hwb(60 4% 10%);
+}
+nav ul li:last-child {
+    margin-right: 20; 
+}
+
+nav ul li:nth-child(1) a {
+    background-color: rgb(233, 175, 15);
+    border-radius: 5px;
+    padding: 8px 15px;
+    transition: background-color 0.3s;
+}
+
+nav ul li:nth-child(1) a:hover {
+    background-color: #e71313;
+}
+
+nav ul li:last-child a {
+    background-color: rgb(233, 175, 15);
+    border-radius: 5px;
+    padding: 8px 15px;
+    transition: background-color 0.3s;
+}
+
+nav ul li:last-child a:hover {
+    background-color:#e71313;
+}
+
+
+
+
+
+
+
+.container2 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-left: 100px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="time"],
+textarea {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: rgb(233, 175, 15);
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color:#e71313;
+    color: hwb(60 4% 10%);
+}
+
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+        /* Basic styling for the advertisement */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(237, 189, 33, 0.2);
+    border-radius: 8px;
+    padding-left: 100px;
+}
+
+h2 {
+    color: #373528;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.advertise {
+    display: flex;
+    justify-content: center;
+            
+           
+}
+
+.advertise img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 10%;
+    margin-right: 20px;
+}
+
+.advertise p {
+    flex-grow: 1;
+}
+
+.advertise submit {
+    background-color: rgb(233, 175, 15);
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+            
+}
+
+submit:hover {
+    background-color:#e71313;
+    color: hwb(60 4% 10%);
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .advertise {
+    flex-direction: column;
+    text-align: center;
+    }
+
+    .advertise img {
+    margin-right: 0;
+    margin-bottom: 20px;
+    }
+
+}
