@@ -157,3 +157,16 @@ body {
     padding-left: 10px;
     
 }
+
+.profile .bx-log-out {
+    position: absolute;
+    left: 88%;
+    bottom: 5px;
+    transform: translateX(-50%);
+    min-width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    border-radius: 12px;
+    color: #fff;
+    padding-left: 300px;
+}
